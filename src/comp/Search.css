@@ -1,0 +1,24 @@
+.search_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_form-text {
+    flex: 1;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: grey;
+    outline: none;
+}
+
+.search_form-btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: teal;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 12px;
+    cursor: pointer;
+}
